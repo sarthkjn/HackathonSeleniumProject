@@ -1,0 +1,200 @@
+Started by user Anany Shukla
+Running as SYSTEM
+Building in workspace C:\Users\anany\.jenkins\workspace\Identify Courses
+The recommended git tool is: NONE
+No credentials specified
+ > git.exe rev-parse --resolve-git-dir C:\Users\anany\.jenkins\workspace\Identify Courses\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ayushh01/Identify_Courses # timeout=10
+Fetching upstream changes from https://github.com/ayushh01/Identify_Courses
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.32.0.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/ayushh01/Identify_Courses +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision dfd932da45417286d2fd4d6866f09698dcd060ae (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f dfd932da45417286d2fd4d6866f09698dcd060ae # timeout=10
+Commit message: "final project"
+ > git.exe rev-list --no-walk dfd932da45417286d2fd4d6866f09698dcd060ae # timeout=10
+Parsing POMs
+Established TCP socket on 57297
+[Identify Courses] $ "C:\Program Files\Java\jdk1.8.0_291/bin/java" -cp C:\Users\anany\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;D:\apache-maven-3.8.1-bin\apache-maven-3.8.1\boot\plexus-classworlds-2.6.0.jar;D:\apache-maven-3.8.1-bin\apache-maven-3.8.1/conf/logging jenkins.maven3.agent.Maven35Main D:\apache-maven-3.8.1-bin\apache-maven-3.8.1 C:\Users\anany\.jenkins\war\WEB-INF\lib\remoting-4.7.jar C:\Users\anany\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\anany\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 57297
+<===[JENKINS REMOTING CAPACITY]===>channel started
+Executing Maven:  -B -f C:\Users\anany\.jenkins\workspace\Identify Courses\pom.xml install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< IdentifyCourses:IdentifyCourses >-------------------
+[INFO] Building IdentifyCourses 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:resources (default-resources) @ IdentifyCourses ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\anany\.jenkins\workspace\Identify Courses\src\main\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ IdentifyCourses ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.2:testResources (default-testResources) @ IdentifyCourses ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ IdentifyCourses ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ IdentifyCourses ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 36242
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:35:52 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Name of Course:- Introduction to Web Development  Rating:-4.7
+stars  Total Hours:- Approx. 22 hours to complete
+Name of Course:- IBM Full Stack Cloud Developer Professional Certificate  Rating:-4.5
+stars  Total Hours:- Approximately 13 months to complete
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 20069
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:36:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Number of courses available for each language:
+English: 1522
+Spanish: 794
+Russian: 784
+French: 727
+Portuguese (Portugal): 670
+Arabic: 591
+German: 588
+Vietnamese: 583
+Italian: 557
+Chinese (China): 165
+Korean: 148
+Portuguese (Brazil): 74
+Japanese: 68
+Turkish: 68
+Persian: 47
+Chinese (Traditional): 42
+Greek: 24
+Ukrainian: 20
+Portuguese: 16
+Hindi: 14
+Dutch: 13
+Thai: 13
+Afrikaans: 12
+Urdu: 12
+Hungarian: 10
+Catalan: 9
+Javanese: 8
+Hebrew: 7
+Indonesian: 7
+Polish: 7
+Mongolian: 6
+Romanian: 6
+Slovak: 6
+Tamil: 5
+Czech: 4
+Serbian: 4
+Albanian: 3
+Bengali: 3
+Georgian: 3
+Telugu: 3
+Burmese: 2
+Croatian: 2
+Estonian: 2
+Lithuanian: 2
+Uzbek: 2
+Bulgarian: 1
+Kazakh: 1
+Marathi: 1
+Nepali: 1
+Russian (Russia): 1
+Swedish: 1
+Number of courses available level wise:
+Intermediate: 742
+Beginner: 694
+Mixed: 203
+Advanced: 75
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 9444
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:36:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Thank you for your interest in Coursera for Campus
+You have entered valid details
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 24243
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:36:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Thank you for your interest in Coursera for Campus
+You have entered valid details
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 33246
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:37:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Must be valid email.
+example@yourdomain.com
+Please enter valid details.
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 5454
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:37:49 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Must be valid email.
+example@yourdomain.com
+Please enter valid details.
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 4656
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:38:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Must be a phone number.
+503-555-1212
+Please enter valid details.
+Starting ChromeDriver 91.0.4472.19 (1bf021f248676a0b2ab3ee0561d83a59e424c23e-refs/branch-heads/4472@{#288}) on port 15987
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 9:38:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Must be a phone number.
+503-555-1212
+Please enter valid details.
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 190 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[JENKINS] Recording test results
+[INFO] 
+[INFO] --- maven-jar-plugin:3.0.2:jar (default-jar) @ IdentifyCourses ---
+[INFO] Building jar: C:\Users\anany\.jenkins\workspace\Identify Courses\target\IdentifyCourses-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ IdentifyCourses ---
+[INFO] Installing C:\Users\anany\.jenkins\workspace\Identify Courses\target\IdentifyCourses-0.0.1-SNAPSHOT.jar to C:\Users\anany\.m2\repository\IdentifyCourses\IdentifyCourses\0.0.1-SNAPSHOT\IdentifyCourses-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\anany\.jenkins\workspace\Identify Courses\pom.xml to C:\Users\anany\.m2\repository\IdentifyCourses\IdentifyCourses\0.0.1-SNAPSHOT\IdentifyCourses-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:17 min
+[INFO] Finished at: 2021-06-28T21:39:03+05:30
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data
+[JENKINS] Archiving C:\Users\anany\.jenkins\workspace\Identify Courses\pom.xml to IdentifyCourses/IdentifyCourses/0.0.1-SNAPSHOT/IdentifyCourses-0.0.1-SNAPSHOT.pom
+[JENKINS] Archiving C:\Users\anany\.jenkins\workspace\Identify Courses\target\IdentifyCourses-0.0.1-SNAPSHOT.jar to IdentifyCourses/IdentifyCourses/0.0.1-SNAPSHOT/IdentifyCourses-0.0.1-SNAPSHOT.jar
+channel stopped
+Finished: SUCCESS

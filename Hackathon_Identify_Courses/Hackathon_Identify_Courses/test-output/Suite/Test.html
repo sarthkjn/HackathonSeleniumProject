@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>18/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 29 08:40:06 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>202 seconds (202230 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression smoke </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.filtercourseFirst()'><b>filtercourseFirst</b><br>Test class: com.courses.tests.SearchCoursesTest</td>
+<td></td>
+<td>5</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.filtercourseSecond()'><b>filtercourseSecond</b><br>Test class: com.courses.tests.SearchCoursesTest</td>
+<td></td>
+<td>1</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.filtercoursesByLang()'><b>filtercoursesByLang</b><br>Test class: com.courses.tests.SearchCoursesTest<br>Parameters: Coursera | Online Courses & Credentials From Top Educators. Join for Free, Web Development, English, Beginner, Top Web Development Courses - Learn Web Development Online | Coursera</td>
+<td></td>
+<td>3</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.filtercoursesByLevel()'><b>filtercoursesByLevel</b><br>Test class: com.courses.tests.SearchCoursesTest<br>Parameters: Coursera | Online Courses & Credentials From Top Educators. Join for Free, Web Development, English, Beginner, Top Web Development Courses - Learn Web Development Online | Coursera</td>
+<td></td>
+<td>0</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.LanguageLearningTest.getLanguageCoursesCount()'><b>getLanguageCoursesCount</b><br>Test class: com.courses.tests.LanguageLearningTest</td>
+<td></td>
+<td>7</td>
+<td>com.courses.tests.LanguageLearningTest@5f9678e1</td></tr>
+<tr>
+<td title='com.courses.tests.LanguageLearningTest.getLevelsCoursesCount()'><b>getLevelsCoursesCount</b><br>Test class: com.courses.tests.LanguageLearningTest</td>
+<td></td>
+<td>0</td>
+<td>com.courses.tests.LanguageLearningTest@5f9678e1</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.verifyCourseraPageTitleTest()'><b>verifyCourseraPageTitleTest</b><br>Test class: com.courses.tests.SearchCoursesTest<br>Parameters: Coursera | Online Courses & Credentials From Top Educators. Join for Free, Web Development, English, Beginner, Top Web Development Courses - Learn Web Development Online | Coursera</td>
+<td></td>
+<td>0</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.ForEnterpriseTest.verifyFormForEmptyData()'><b>verifyFormForEmptyData</b><br>Test class: com.courses.tests.ForEnterpriseTest<br>Parameters: John, Doe, Dean, Dean, john@gmail.com, xyz, Government, Computer Science, India, Goa, example</td>
+<td></td>
+<td>19</td>
+<td>com.courses.tests.ForEnterpriseTest@c4ed84</td></tr>
+<tr>
+<td title='com.courses.tests.ForEnterpriseTest.verifyFormForEmptyData()'><b>verifyFormForEmptyData</b><br>Test class: com.courses.tests.ForEnterpriseTest<br>Parameters: Peter, Doey, Dean, Dean, peter@abc.com, xyz, Government, Computer Science, India, Goa, example</td>
+<td></td>
+<td>19</td>
+<td>com.courses.tests.ForEnterpriseTest@c4ed84</td></tr>
+<tr>
+<td title='com.courses.tests.ForEnterpriseTest.verifyFormForInvalidData()'><b>verifyFormForInvalidData</b><br>Test class: com.courses.tests.ForEnterpriseTest<br>Parameters: abc, def, Dean, Dean, abc, 503-555-1212, xyz, Government, Computer Science, India, Goa, example</td>
+<td></td>
+<td>20</td>
+<td>com.courses.tests.ForEnterpriseTest@c4ed84</td></tr>
+<tr>
+<td title='com.courses.tests.ForEnterpriseTest.verifyFormForInvalidData()'><b>verifyFormForInvalidData</b><br>Test class: com.courses.tests.ForEnterpriseTest<br>Parameters: abc, def, Dean, Dean, xyz, 503-555-1212, xyz, Government, Computer Science, India, Goa, example</td>
+<td></td>
+<td>19</td>
+<td>com.courses.tests.ForEnterpriseTest@c4ed84</td></tr>
+<tr>
+<td title='com.courses.tests.ForEnterpriseTest.verifyFormForValidData()'><b>verifyFormForValidData</b><br>Test class: com.courses.tests.ForEnterpriseTest<br>Parameters: John, Doe, Dean, Dean, john@abc.com, 503-555-1212, xyz, Government, Computer Science, India, Goa, example</td>
+<td></td>
+<td>20</td>
+<td>com.courses.tests.ForEnterpriseTest@c4ed84</td></tr>
+<tr>
+<td title='com.courses.tests.ForEnterpriseTest.verifyFormForValidData()'><b>verifyFormForValidData</b><br>Test class: com.courses.tests.ForEnterpriseTest<br>Parameters: Peter, Doey, Dean, Dean, peter@abc.com, 503-555-1212, xyz, Government, Computer Science, India, Goa, example</td>
+<td></td>
+<td>19</td>
+<td>com.courses.tests.ForEnterpriseTest@c4ed84</td></tr>
+<tr>
+<td title='com.courses.tests.LanguageLearningTest.verifyLanguageLearningPageTitle()'><b>verifyLanguageLearningPageTitle</b><br>Test class: com.courses.tests.LanguageLearningTest<br>Parameters: Language Learning, Top Language Learning Courses - Learn Language Learning Online | Coursera</td>
+<td></td>
+<td>0</td>
+<td>com.courses.tests.LanguageLearningTest@5f9678e1</td></tr>
+<tr>
+<td title='com.courses.tests.LanguageLearningTest.verifySearchFunctionality()'><b>verifySearchFunctionality</b><br>Test class: com.courses.tests.LanguageLearningTest<br>Parameters: Language Learning, Top Language Learning Courses - Learn Language Learning Online | Coursera</td>
+<td></td>
+<td>2</td>
+<td>com.courses.tests.LanguageLearningTest@5f9678e1</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.verifySearchTest()'><b>verifySearchTest</b><br>Test class: com.courses.tests.SearchCoursesTest<br>Parameters: Coursera | Online Courses & Credentials From Top Educators. Join for Free, Web Development, English, Beginner, Top Web Development Courses - Learn Web Development Online | Coursera</td>
+<td></td>
+<td>3</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.verifyWebDevelopmentPageTitle()'><b>verifyWebDevelopmentPageTitle</b><br>Test class: com.courses.tests.SearchCoursesTest<br>Parameters: Coursera | Online Courses & Credentials From Top Educators. Join for Free, Web Development, English, Beginner, Top Web Development Courses - Learn Web Development Online | Coursera</td>
+<td></td>
+<td>1</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+<tr>
+<td title='com.courses.tests.SearchCoursesTest.writeCourseDetailsExcel()'><b>writeCourseDetailsExcel</b><br>Test class: com.courses.tests.SearchCoursesTest</td>
+<td></td>
+<td>0</td>
+<td>com.courses.tests.SearchCoursesTest@373ebf74</td></tr>
+</table><p>
+</body>
+</html>
